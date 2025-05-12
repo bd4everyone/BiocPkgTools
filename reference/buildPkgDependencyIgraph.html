@@ -122,9 +122,9 @@ package for details of what can be done.</p>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">g</span> <span class="op">=</span> <span class="fu">buildPkgDependencyIgraph</span><span class="op">(</span><span class="va">pkg_dep_df</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">g</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> IGRAPH fb4e511 DN-- 3713 30026 -- </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> IGRAPH de18864 DN-- 3713 30026 -- </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> + attr: name (v/c), edgetype (e/c)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> + edges from fb4e511 (vertex names):</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> + edges from de18864 (vertex names):</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [1] a4       -&gt;a4Base       a4       -&gt;a4Preproc    a4       -&gt;a4Classif   </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [4] a4       -&gt;a4Core       a4       -&gt;a4Reporting  a4Base   -&gt;a4Preproc   </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [7] a4Base   -&gt;a4Core       a4Classif-&gt;a4Core       a4Classif-&gt;a4Preproc   </span>
@@ -137,10 +137,10 @@ package for details of what can be done.</p>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Look at nodes and edges</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://r.igraph.org/reference/V.html" class="external-link">V</a></span><span class="op">(</span><span class="va">g</span><span class="op">)</span><span class="op">)</span> <span class="co"># vertices</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> + 6/3713 vertices, named, from fb4e511:</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> + 6/3713 vertices, named, from de18864:</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] a4        a4Base    a4Classif ABSSeq    acde      aCGH     </span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://r.igraph.org/reference/E.html" class="external-link">E</a></span><span class="op">(</span><span class="va">g</span><span class="op">)</span><span class="op">)</span> <span class="co"># edges</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> + 6/30026 edges from fb4e511 (vertex names):</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> + 6/30026 edges from de18864 (vertex names):</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] a4    -&gt;a4Base      a4    -&gt;a4Preproc   a4    -&gt;a4Classif  </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [4] a4    -&gt;a4Core      a4    -&gt;a4Reporting a4Base-&gt;a4Preproc  </span>
 <span class="r-in"><span></span></span>
