@@ -1,0 +1,7 @@
+title: BiocPkgTools
+url: https://bioconductor.github.io/BiocPkgTools
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: flatly
